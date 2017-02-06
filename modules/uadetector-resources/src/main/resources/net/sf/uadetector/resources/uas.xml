@@ -20413,6 +20413,16 @@
 				<icon>mxnitro.png</icon>
 				<browser_info_url>/list-of-ua/browser-detail?browser=MxNitro</browser_info_url>
 			</browser>
+			<browser>
+				<id>542</id>
+				<type>0</type>
+				<name>Microsoft Edge</name>
+				<url><![CDATA[http://microsoft.com/edge/]]></url>
+				<company><![CDATA[Microsoft Corporation]]></company>
+				<url_company><![CDATA[http://www.microsoft.com/]]></url_company>
+				<icon>edge.png</icon>
+				<browser_info_url>/list-of-ua/browser-detail?browser=Microsoft Edge</browser_info_url>
+			</browser>
 		</browsers>
 		<browser_types>
 			<browser_type>
@@ -20723,8 +20733,8 @@
 			</browser_reg>
 			<browser_reg>
 				<order>53</order>
-				<browser_id>142</browser_id>
-				<regstring>/Demeter\/([0-9\.]+)/si</regstring>
+				<browser_id>542</browser_id>
+				<regstring>/^Mozilla.*Chrome.*Safari.*Edge\/([0-9\.]+)/si</regstring>
 			</browser_reg>
 			<browser_reg>
 				<order>54</order>
